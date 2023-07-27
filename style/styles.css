@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap');
+
+@font-face {
+    font-family: Mainstein;
+    src: url(./Manstein.ttf);
+ }
+
+
+
+
+*{
+      text-decoration: none;
+      list-style: none;  
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+nav{
+    
+    color: black;
+}
+.menu{
+        
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu ul{
+    display: flex;
+    gap: 1rem ;
+}
+.menu ul li a{
+    font-size: 15px;
+    font-weight: 300;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+.logo a{
+    font-size: 1.5rem;
+    font-family: Mainstein;
+}
+
+
+
+
+/* 
+-------------------home---------- */
+
+
+.home{
+    margin-top: 4rem;
+    height: 100vh;
+}
+.descricao{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    
+}
+.descricao img{
+    width: 500px;
+    border-radius: 20px;
+}
+.contentDesk h1{
+   font-weight: 300; 
+
+}
+.contentDesk h1 span{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+
+
+
+/* -------------to section ---------- */
+
+.toSection{
+    margin-top: 3rem;
+    height: 100vh;
+    
+}
+.toTitle{
+    
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+.toTitle span{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.toDesc{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.toDesc img{
+    width: 500px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    -webkit-border-top-left-radius: 100px;
+    -webkit-border-bottom-right-radius: 100px;
+    -moz-border-radius-topleft: 100px;
+    -moz-border-radius-bottomright: 100px;
+}
